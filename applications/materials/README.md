@@ -1,176 +1,59 @@
-# Application: Finance
-## Real-Time Financial Trust Score for the Gig Economy
+# Application: Materials Science
+## R³ Applied to Superconductors — Two Repository Structure
 
-**R³ Application Record: R3-APP-FINANCE-20260316**  
+**R³ Application Record: R3-APP-MATERIALS-20260315**  
 **Author:** Michael A. Russell  
 **Organization:** Advanceer IVS Labs — Universal Standard Axiom Corporation  
-**Date:** March 16, 2026  
-**Status:** Fixed point specified. Implementation protocol complete. Platform in development.  
+**Date:** March 2026  
+**Status:** Six fixed points specified. Three ready for verification. Three awaiting DFT.  
 **License:** CC0 1.0 Universal — Public Domain
 
 ---
 
-## The Problem
+## Overview
 
-59 million gig workers in the United States perform real work, earn real income, and demonstrate real financial reliability. The credit scoring system — frozen at its 1989 profit point — cannot see them.
-
-They are not uncreditworthy. They are invisible.
+R³ Composite State Dissolution applied to superconducting materials produced six specifications organized into two repositories based on confidence level and verification readiness.
 
 ---
 
-## The Profit Point
+## Repository 1: open-source-superconductors
 
-**FICO was frozen at the profit point in 1989.**
+Three experimentally ready specifications. Each grounded in known phenomena with specific method problems dissolved. Any equipped laboratory can verify today.
 
-At adoption, FICO optimized for:
-- Bureau data availability (what existed)
-- Lender integration (what was compatible)
-- Regulatory approval (what was required)
+| Material | Formula | Tc | Profit Point Dissolved |
+|----------|---------|-----|----------------------|
+| Palladium Hydride | PdH₀.₈₅ | 9 K | Bulk loading method |
+| Iron Pnictides | SmFeAsO₁₋ₓFₓ | 78 K | Chemical doping plateau |
+| Carbon Nanotubes | (10,10) SWCNT | 15 K | Contacts + chirality + defects |
 
-Further refinement was abandoned when these thresholds were met. The system has not fundamentally changed in 35 years despite the economy changing dramatically around it.
-
-**Layers frozen at the profit point:**
-
-| Layer | Description | Type |
-|-------|-------------|------|
-| Bureau monopoly | Only bureau data accepted | PP |
-| Static snapshot | Score updated monthly at best | PP |
-| Employment bias | W-2 income weighted over 1099 | HA |
-| Gig blindness | Platform performance not considered | HA |
-| Opacity | Algorithm secret, undisputable | PP |
-| Retroactive only | Past behavior only, no trajectory | AR |
-| Population bias | Calibrated on non-representative population | PP |
+→ github.com/[username]/open-source-superconductors
 
 ---
 
-## The Fixed Point
+## Repository 2: superconductor-predictions
 
-**A continuously updated, worker-owned, multi-source financial identity score.**
+Three theoretical predictions awaiting DFT verification. Clearly labeled as predictions.
 
-### Technical Specification
+| Material | Formula | Predicted Tc | Awaiting |
+|----------|---------|-------------|---------|
+| Simple Cubic Lead | sc-Pb | 295 K | Phonon DFT |
+| Rhenium Diboride | ReB₂ | 215 K | Electron-phonon DFT |
+| LK-99 Pure Phase | Pb₉Cu₁(PO₄)₆O | 300 K | Electronic structure DFT |
 
-| Parameter | Value |
-|-----------|-------|
-| Update trigger | Event-based + scheduled pulse |
-| Data sources | Credit bureaus + gig platforms + payment history + bank data |
-| Computation location | Frontend server (worker's data never leaves) |
-| Verification location | Polygon blockchain (score only, not raw data) |
-| Ownership | Individual worker |
-| Access model | Worker-granted, time-limited, auditable |
-| Cost model | Free to compute, fee to verify on-chain |
-
-### Architecture
-
-```
-Gig Platform APIs ──────────────┐
-Credit Bureau APIs ──────────────┤
-Payment History ─────────────────┤──► Frontend Server
-Bank Account Data ───────────────┤    (compute score)
-FICO (optional) ─────────────────┘         │
-                                           │ score only
-                                           ▼
-                                    Polygon Blockchain
-                                    (verify + record)
-                                           │
-                                    Silent until queried
-                                           │
-                                           ▼
-                                    Lender queries
-                                    (with worker permission)
-```
-
-### Business Model
-
-```
-FREE TIER:
-  Pull score anytime
-  See current score
-  See what would improve it
-  No cost
-
-PAY PER VERIFICATION:
-  Push score to blockchain
-  1 MATIC per push
-  Score becomes lender-verifiable
-  Immutable record created
-
-SUBSCRIPTION:
-  Automatic pulse (every 6/12/24 hours)
-  Score always current for lenders
-  20 MATIC per month
-
-LENDER ACCESS:
-  Lenders pay for score access
-  OR
-  Lenders pay monthly platform fee
-```
+→ github.com/[username]/superconductor-predictions
 
 ---
 
-## Measurable Predictions
+## Self-Correction Record
 
-If the fixed point exists, the following must be observable:
-
-1. **Default rate reduction:** Loans issued using R³ score show lower default rates than FICO-only decisions for gig worker population
-
-2. **Population expansion:** ≥40% of currently credit-invisible gig workers qualify for products under R³ score that they were denied under FICO alone
-
-3. **Score accuracy:** R³ score predicts on-time payment within 30 days at ≥75% accuracy for gig workers vs ≤45% for FICO on same population
-
-4. **Update responsiveness:** Score reflects completed gig work within 24 hours of platform confirmation
-
-5. **Worker adoption:** Workers with access to R³ score apply for credit products at 3x the rate of workers without access
+One mathematical error was found and corrected during development. The alpha2F integration for sc-Pb used a delta function approximation for Lorentzian peaks. Error documented, corrected, published. See framework/06_R3_applied_to_R3.md.
 
 ---
 
-## Implementation Protocol
+## Collaboration Contacts
 
-See `trust_score_protocol.md` for complete technical implementation including:
-- Smart contract (Solidity, Polygon)
-- Frontend integration (React/JavaScript)
-- API connection templates for major gig platforms
-- Bureau data pull with FCRA compliance
-- Subscription and payment management
-
----
-
-## Regulatory Considerations
-
-This platform operates under:
-
-- **FCRA (Fair Credit Reporting Act):** Worker consent required for all bureau pulls. Dispute mechanism required. Data retention limits apply.
-- **ECOA (Equal Credit Opportunity Act):** Score must not discriminate on protected characteristics.
-- **CCPA/State privacy laws:** Data minimization, worker rights to access and deletion.
-
-All regulatory requirements are built into the architecture from day one.
-
----
-
-## Verification Status
-
-| Metric | Status |
-|--------|--------|
-| Architecture designed | Complete |
-| Smart contract written | Complete |
-| Frontend code written | Complete |
-| Bureau API integration | In development |
-| Gig platform API integration | In development |
-| Lender pilot | Seeking first partner |
-| Independent validation | Open |
-
----
-
-## Fixed Point Claim
-
-**The credit scoring system has been frozen at the profit point since 1989.**
-
-**R³ identifies the fixed point: a continuously updated, worker-owned financial identity that reflects actual financial behavior in real time.**
-
-**59 million gig workers are creditworthy. The system just cannot see them yet.**
-
-**This platform makes them visible.**
-
-**Free for all humanity — CC0 1.0 Universal.**
+Experimental: errea@ehu.eus / cavalleri@mpsd.mpg.de  
+DFT: fgiustino@oden.utexas.edu / errea@ehu.eus / samuel.ponce@uclouvain.be
 
 ---
 
