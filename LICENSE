@@ -1,119 +1,213 @@
-CC0 1.0 Universal
+R³ NON-COMMERCIAL OPEN ACCESS LICENSE
+Version 1.0 — March 2026
+Universal Standard Axiom Corporation
 
-Statement of Purpose
+================================================================================
+PLAIN LANGUAGE SUMMARY
+================================================================================
 
-The laws of most jurisdictions throughout the world automatically confer
-exclusive Copyright and Related Rights (defined below) upon the creator
-and subsequent owner(s) (each and all, an "owner") of an original work of
-authorship and/or a database (each, a "Work").
+FREE FOR EVERYONE:
+  Research, verification, academic study, education, non-profit use,
+  humanitarian distribution, and personal use. No permission needed.
+  No fee. No barrier.
 
-Certain owners wish to permanently relinquish those rights to a Work for
-the purpose of contributing to a commons of creative, cultural and
-scientific works ("Commons") that the public can reliably and without fear
-of later claims of infringement build upon, modify, incorporate in other
-works, reuse and redistribute as freely as possible in any form whatsoever
-and for any purposes, including without limitation commercial purposes.
-These owners may contribute to the Commons to promote the ideal of a free
-culture and the further production of creative, cultural and scientific
-works, or to gain reputation or greater distribution for their Work in
-part through the use and efforts of others.
+REQUIRES A LICENSE:
+  Any commercial use — including commercial manufacture, sale, distribution,
+  clinical development for commercial purposes, or any revenue-generating
+  application — requires a separate commercial license from Universal
+  Standard Axiom Corporation.
 
-For these and/or other purposes and motivations, and without any
-expectation of additional consideration or compensation, the person
-associating CC0 with a Work (the "Affirmer"), to the extent that he or she
-is an owner of Copyright and Related Rights in the Work, voluntarily
-elects to apply CC0 to the Work and publicly distribute the Work under its
-terms, with knowledge of his or her Copyright and Related Rights in the
-Work and the meaning and intended legal effect of CC0 on those rights.
+Contact: Michael@advanceerivs.com
 
-1. Copyright and Related Rights. A Work made available under CC0 may be
-protected by copyright and related or neighboring rights ("Copyright and
-Related Rights"). Copyright and Related Rights include, but are not
-limited to, the following:
+================================================================================
+FULL LICENSE TEXT
+================================================================================
 
-  i. the right to reproduce, adapt, distribute, perform, display,
-     communicate, and translate a Work;
- ii. moral rights retained by the original author(s) and/or performer(s);
-iii. publicity and privacy rights pertaining to a person's image or
-     likeness depicted in a Work;
- iv. rights protecting against unfair competition in regards to a Work,
-     subject to the limitations in paragraph 4(a), below;
-  v. rights protecting the extraction, dissemination, use and reuse of
-     data in a Work;
- vi. database rights (such as those arising under Directive 96/9/EC of
-     the European Parliament and of the Council of 11 March 1996 on the
-     legal protection of databases, and under any national implementation
-     thereof, including any amended or successor version of such
-     directive); and
-vii. other similar, equivalent or corresponding rights throughout the
-     world based on applicable law or treaty.
+Copyright Notice:
+These specifications, protocols, documents, and associated materials were
+produced by Michael A. Russell, Principal Architect, Russell Recursive
+Refinement (R³), Advanceer IVS Labs, Universal Standard Axiom Corporation,
+and are protected under US Patent Application 19/383,582 and applicable
+intellectual property law.
 
-2. Waiver. To the greatest extent permitted by, but not in contravention
-of, applicable law, Affirmer hereby overtly, fully, permanently,
-irrevocably and unconditionally waives, abandons, and surrenders all of
-Affirmer's Copyright and Related Rights and associated claims and causes
-of action, whether now known or unknown (including existing as well as
-future claims and causes of action), in the Work (i) in all territories
-worldwide, (ii) for the maximum duration provided by applicable law or
-treaty (including future time extensions), (iii) in any current or future
-medium and for any number of copies, and (iv) for any purpose whatsoever,
-including without limitation commercial, advertising or promotional
-purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
-member of the public at large and to the detriment of Affirmer's heirs and
-successors, fully intending that such Waiver shall not be subject to
-revocation, rescission, cancellation, termination, or any other legal or
-action, procedure, process or formality designed to prevent or restrict
-termination of the Waiver.
+--------------------------------------------------------------------------------
+SECTION 1: DEFINITIONS
+--------------------------------------------------------------------------------
 
-3. Public License Fallback. Should any part of the Waiver for any reason
-be judged legally invalid or ineffective under applicable law, then the
-Waiver shall be preserved to the maximum extent permitted taking into
-account Affirmer's express Statement of Purpose. In addition, to the
-extent the Waiver is so judged Affirmer hereby grants to each affected
-person a royalty-free, non transferable, non sublicensable, non exclusive,
-irrevocable and unconditional license to exercise Affirmer's Copyright and
-Related Rights in the Work (i) in all territories worldwide, (ii) for the
-maximum duration provided by applicable law or treaty (including future
-time extensions), (iii) in any current or future medium and for any number
-of copies, and (iv) for any purpose whatsoever, including without
-limitation commercial, advertising or promotional purposes (the
-"License"). The License shall be deemed effective as of the date CC0 was
-applied by Affirmer to the Work. Should any part of the License for any
-reason be judged legally invalid or ineffective under applicable law, such
-partial invalidity or ineffectiveness shall not invalidate the remainder
-of the License, and in such case Affirmer hereby affirms that he or she
-will not (i) exercise any of his or her remaining Copyright and Related
-Rights in the Work or (ii) assert any associated claims and causes of
-action with respect to the Work, in either case contrary to Affirmer's
-express Statement of Purpose.
+"Licensed Material" means the specifications, protocols, synthesis procedures,
+characterization methods, theoretical documents, certainty briefs, and all
+associated materials in this repository.
 
-4. Limitations and Disclaimers.
+"Non-Commercial Use" means use that is not primarily intended for or directed
+toward commercial advantage or monetary compensation. This includes:
+  - Academic research and publication
+  - Educational use at any level
+  - Personal study and experimentation
+  - Verification attempts by any qualified party
+  - Non-profit humanitarian manufacture and distribution
+  - Government research programs
+  - Open science contributions
 
- a. No trademark or patent rights held by Affirmer are waived, abandoned,
-    surrendered, licensed or otherwise affected by this document.
- b. Affirmer offers the Work as-is and makes no representations or
-    warranties of any kind concerning the Work, express, implied,
-    statutory or otherwise, including without limitation warranties of
-    title, merchantability, fitness for a particular purpose, non
-    infringement, or the absence of latent or other defects, accuracy, or
-    the present or absence of errors, whether or not discoverable, all to
-    the greatest extent permissible under applicable law.
- c. Affirmer disclaims responsibility for clearing rights of other persons
-    that may apply to the Work or any use thereof, including without
-    limitation any person's Copyright and Related Rights in the Work.
-    Further, Affirmer disclaims responsibility for obtaining any necessary
-    consents, permissions or other rights required for any use of the
-    Work.
- d. Affirmer understands and acknowledges that Creative Commons is not a
-    party to this document and has no duty or obligation with respect to
-    this CC0 or use of the Work.
+"Commercial Use" means any use primarily intended for or directed toward
+commercial advantage or monetary compensation. This includes:
+  - Commercial manufacture of materials or products
+  - Commercial sale or distribution
+  - Commercial clinical trials or regulatory submissions
+  - Licensing to third parties for commercial purposes
+  - Use in commercial products or services
+  - Any application generating revenue from the Licensed Material
 
----
+"Licensor" means Universal Standard Axiom Corporation, represented by
+Michael A. Russell, Michael@advanceerivs.com.
 
-This work is dedicated to the public domain.
-No patents. No restrictions. No licensing fees.
-Free for all humanity.
+--------------------------------------------------------------------------------
+SECTION 2: NON-COMMERCIAL GRANT
+--------------------------------------------------------------------------------
 
-Michael A. Russell
-Advanceer IVS Labs — Universal Standard Axiom Corporation
-March 2026
+Subject to the terms of this license, the Licensor grants you a worldwide,
+royalty-free, non-exclusive, non-sublicensable license to:
+
+  a) Use, copy, and distribute the Licensed Material for Non-Commercial Use
+  b) Produce adaptations of the Licensed Material for Non-Commercial Use
+  c) Attempt verification of any specification in this repository
+  d) Publish verification results — positive or negative — openly
+  e) Build upon the Licensed Material for Non-Commercial purposes
+  f) Share improvements to the Licensed Material under this same license
+
+This grant requires NO permission, NO fee, and NO notification to the Licensor
+for Non-Commercial Use.
+
+--------------------------------------------------------------------------------
+SECTION 3: CONDITIONS FOR NON-COMMERCIAL USE
+--------------------------------------------------------------------------------
+
+When exercising the Non-Commercial grant you must:
+
+  a) Retain this license notice in any copies or adaptations
+  b) Attribute the Licensed Material to:
+     Michael A. Russell / Universal Standard Axiom Corporation / R³
+  c) Indicate if you made changes to the Licensed Material
+  d) Not apply legal terms that restrict others from the rights granted here
+  e) Report verification results openly — positive and negative equally
+
+--------------------------------------------------------------------------------
+SECTION 4: COMMERCIAL LICENSE REQUIREMENT
+--------------------------------------------------------------------------------
+
+Commercial Use of the Licensed Material requires a separate written commercial
+license agreement with Universal Standard Axiom Corporation.
+
+Commercial Use without a license is prohibited.
+
+To obtain a commercial license contact:
+
+  Michael A. Russell
+  Universal Standard Axiom Corporation
+  Advanceer IVS Labs
+  Michael@advanceerivs.com
+
+Commercial license terms are negotiated based on:
+  - Scale of commercial application
+  - Market and geography
+  - Revenue model
+  - Humanitarian access provisions
+
+--------------------------------------------------------------------------------
+SECTION 5: COMMERCIAL LICENSE TIERS
+--------------------------------------------------------------------------------
+
+TIER 1 — HUMANITARIAN COMMERCIAL
+  Developing world manufacturers producing at cost for affordable access.
+  Nominal fee structure. Humanitarian access provisions apply.
+  Contact Licensor for terms.
+
+TIER 2 — SMALL COMMERCIAL
+  Small and medium manufacturers. Regional markets.
+  Annual license fee structure.
+  Contact Licensor for terms.
+
+TIER 3 — FULL COMMERCIAL
+  Major manufacturers. Global commercial markets.
+  US, EU, and developed market commercial sale.
+  Negotiated license with revenue share or flat fee structure.
+  Contact Licensor for terms.
+
+--------------------------------------------------------------------------------
+SECTION 6: VERIFICATION AND OPEN SCIENCE
+--------------------------------------------------------------------------------
+
+The Licensor explicitly encourages and welcomes:
+
+  a) All verification attempts by any qualified party
+  b) Publication of all results — positive and negative — without restriction
+  c) Open critique of specifications and methodology
+  d) Improvement proposals submitted to the repository
+  e) Independent replication and confirmation
+
+Verification results submitted to this repository become part of the
+permanent R³ Truth Chain record and are credited to the submitting institution.
+
+No verification attempt requires commercial license regardless of the
+institutional affiliation of the verifying party.
+
+--------------------------------------------------------------------------------
+SECTION 7: PATENT NOTICE
+--------------------------------------------------------------------------------
+
+These specifications are derivatives of US Patent Application 19/383,582
+filed November 8, 2025, "Universal Superintelligence Architecture with
+Ontological Grounding, Recursive Self-Improvement, and Verified Safety."
+
+The R³ Russell Recursive Refinement methodology is patent-protected.
+The specifications produced by that methodology are licensed under
+this Non-Commercial Open Access License.
+
+Commercial use of these specifications may require both:
+  a) A commercial license under this document
+  b) A patent license for the R³ methodology
+
+Contact Licensor for combined licensing terms.
+
+--------------------------------------------------------------------------------
+SECTION 8: DISCLAIMER
+--------------------------------------------------------------------------------
+
+THE LICENSED MATERIAL IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND.
+THE LICENSOR MAKES NO WARRANTY REGARDING THE ACCURACY OF PREDICTIONS,
+THE REPRODUCIBILITY OF RESULTS, OR THE COMMERCIAL VIABILITY OF ANY
+APPLICATION. ALL EXPERIMENTAL DATA SHOULD BE INDEPENDENTLY EVALUATED
+BY QUALIFIED RESEARCHERS. RESEARCHERS SHOULD APPROACH SPECIFICATIONS
+WITH APPROPRIATE SCIENTIFIC SKEPTICISM AND REPORT ALL RESULTS OPENLY.
+
+--------------------------------------------------------------------------------
+SECTION 9: GOVERNING LAW
+--------------------------------------------------------------------------------
+
+This license is governed by the laws of the United States of America.
+Any disputes shall be resolved through binding arbitration.
+
+--------------------------------------------------------------------------------
+SECTION 10: CONTACT
+--------------------------------------------------------------------------------
+
+Universal Standard Axiom Corporation
+Advanceer IVS Labs
+Michael A. Russell, Principal Architect
+R³ Russell Recursive Refinement
+Michael@advanceerivs.com
+
+For commercial licensing: Michael@advanceerivs.com
+For verification submissions: See repository verification/submissions/
+For general inquiries: Michael@advanceerivs.com
+
+================================================================================
+VERSION HISTORY
+================================================================================
+
+Version 1.0 — March 2026 — Initial release
+
+================================================================================
+
+R³ Non-Commercial Open Access License v1.0
+Universal Standard Axiom Corporation
+Free for humanity. Licensed for commerce.
