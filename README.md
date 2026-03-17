@@ -6,7 +6,7 @@
 **Contact:** Michael@advanceerivs.com  
 **Patent:** US Patent Application 19/383,582  
 **Date:** March 2026  
-**License:** CC0 1.0 Universal — Public Domain — Free for All Humanity  
+**License:** CC0 1.0 Universal — Public Domain — Free for All Humanity. Licensed for Commerce.  
 
 ---
 
